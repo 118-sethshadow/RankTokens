@@ -1,0 +1,31 @@
+Created by Kartikeya Kaushal 10/4/2011
+
+Directory of the project (this is windows 7 format)
+
+Outputs
+   The output files are .\tokens\src\tokens.txt and .\tokens\src\top5.txt
+
+Source code
+   The source code is in .\tokens\src\Tokening  There are 3 java files:
+	Tokening.java
+	Rank.java
+	OrderedCollection.java
+
+Bin
+   The java class files are in .\tokens\bin   There are 3 class files:
+	Tokening.class
+	Rank.class
+	OrderedCollection.class
+
+
+To run program (on Windows 7 cmd prompt):
+
+cd .\tokens\src
+
+javac Tokening.java
+
+java Tokening input.txt output1.txt output2.txt
+
+Output files are stored in .\src if run from the cmd prompt.
+
+Input file must be in .\src to be found to run from cmd prompt
